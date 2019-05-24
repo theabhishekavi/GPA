@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int gradePoint(String number){
 
-        if(number!= null) {
+        if(!number.equals("")) {
 
             int marks = Integer.valueOf(number);
 
