@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ThirdSemester">
     <TextView
+        android:id="@+id/tvThirdSem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Third Semester"
@@ -15,11 +20,21 @@
         android:paddingBottom="10dp"/>
 
     <TextView
+        android:id="@+id/tvTheorySub3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Theory Subjects"
+        android:text="Theory Subjects:-"
         android:textSize="20dp"
         android:paddingBottom="10dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:background="@color/cardview_shadow_end_color">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -93,15 +108,26 @@
         android:layout_height="wrap_content" />
     </android.support.design.widget.TextInputLayout>
 
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 
     <TextView
         android:padding="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Practical:-"
-
+        android:id="@+id/tvPractical3"
         android:textSize="20dp"
         android:paddingBottom="10dp"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:background="@color/cardview_shadow_end_color">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -147,19 +173,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 
 
     <Button
-        android:text="okay!"
+        android:text="Calculate Gpa"
         android:layout_gravity="center"
         android:id="@+id/btnOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
  <TextView
+     android:paddingTop="10dp"
+     android:layout_gravity="center"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
-     android:id="@+id/tvResult"/>
+     android:id="@+id/tvResult"
+     android:textSize="20dp"/>
 
 
 </LinearLayout>
+</ScrollView>

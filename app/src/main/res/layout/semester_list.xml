@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnSem1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Semester"
+        android:textSize="20dp"
+        android:theme="@style/PrimaryFlatButton"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnSem2"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Second Semester"-->
+        <!--android:textSize="20dp"-->
+        <!--android:theme="@style/PrimaryFlatButton"/>-->
+
+    <Button
+        android:id="@+id/btnSem3"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third Semester"
+        android:textSize="20dp"
+        android:theme="@style/PrimaryFlatButton"/>
+    <!--<Button-->
+        <!--android:id="@+id/btnSem4"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Fourth Semester"-->
+        <!--android:textSize="20dp"-->
+        <!--android:theme="@style/PrimaryFlatButton"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btnSem5"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Fifth Semester"-->
+        <!--android:textSize="20dp"-->
+        <!--android:theme="@style/PrimaryFlatButton"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btnSem6"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Sixth Semester"-->
+        <!--android:textSize="20dp"-->
+        <!--android:theme="@style/PrimaryFlatButton"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btnSem7"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Seventh Semester"-->
+        <!--android:textSize="20dp"-->
+        <!--android:theme="@style/PrimaryFlatButton"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btnSem8"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Eighth Semester"-->
+        <!--android:textSize="20dp"-->
+        <!--android:theme="@style/PrimaryFlatButton"/>-->
+
+</LinearLayout>
